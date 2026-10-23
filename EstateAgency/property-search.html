@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Property Search - Velora Real Estate</title>
+  <meta name="description" content="Explore homes and property opportunities with Velora Real Estate in Nairobi and across Kenya.">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="property-search-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Velora <span>Real Estate</span></h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="properties.html" class="active">Properties</a></li>
+          <li><a href="agents.html">Agents</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="page-title property-search-hero">
+      <div class="heading">
+        <div class="container">
+          <div class="property-search-heading">
+            <span class="property-directory-eyebrow">Velora property collection</span>
+            <h1 id="property-search-title">Explore properties</h1>
+            <p id="property-search-description">Browse homes and investment opportunities selected for your search.</p>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="properties.html">Properties</a></li>
+            <li class="current" id="property-search-breadcrumb">Search results</li>
+          </ol>
+        </div>
+      </nav>
+    </div>
+
+    <section class="property-results section">
+      <div class="container">
+        <div class="property-results-toolbar">
+          <div>
+            <span class="property-directory-kicker">Your search</span>
+            <h2 id="property-results-heading">Available properties</h2>
+          </div>
+          <a class="property-back-link" href="properties.html"><i class="bi bi-arrow-left" aria-hidden="true"></i> All property categories</a>
+        </div>
+        <p class="property-results-count" id="property-results-count" aria-live="polite"></p>
+        <div class="row gy-4" id="property-results-grid"></div>
+        <div class="property-results-empty" id="property-results-empty" hidden>
+          <i class="bi bi-house-exclamation" aria-hidden="true"></i>
+          <h3>No matching properties just yet</h3>
+          <p>Our online collection is growing. Contact Velora and tell us what you are looking for—we can help you explore suitable options.</p>
+          <a href="contact.html" class="btn-get-started">Ask Velora</a>
+        </div>
+        <p class="property-results-note">Property information is indicative. Confirm availability, exact address, price, and details with Velora Real Estate before making a decision.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div class="address">
+            <h4>Service Area</h4>
+            <p>Kenya-wide property services</p>
+            <p>9 West Building, Highridge, Westlands, Nairobi</p>
+            <p>Floor 7</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Contact</h4>
+            <p><strong>Phone:</strong> <a href="tel:+254799902615">+254 799 902 615</a></p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Viewings</h4>
+            <p>By appointment</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4>Connect With Us</h4>
+          <div class="social-links d-flex">
+            <a href="https://wa.me/254799902615" class="whatsapp" aria-label="Chat with Velora Real Estate on WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright text-center mt-4">
+      <p>© <strong class="px-1 sitename">Velora Real Estate</strong> <span>All Rights Reserved</span></p>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Scroll to top"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
