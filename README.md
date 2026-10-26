@@ -14,11 +14,11 @@ A modern, responsive real estate web application designed for luxury property sa
 
 | Name | Role / Contribution |
 | :--- | :--- |
-| **Dorren** | Project Team Member |
+| **Mary Ndanu** | Project Group Leader |
 | **Fresher** | Project Team Member |
 | **Belvick** | Project Team Member |
-| **Florence** | Project Team Member |
-| **Mary** | Project Team Member |
+| **Florence Mwita** | Project Team Member |
+| **Doreen Makena** | Project Team Member |
 
 ---
 

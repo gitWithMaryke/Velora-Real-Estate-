@@ -14,10 +14,10 @@ A modern, responsive real estate web application designed for luxury property sa
 
 | Name | Role / Contribution |
 | :--- | :--- |
-| **Dorren** | Project Team Member |
+| **Makena** | Project Team Member |
 | **Fresher** | Project Team Member |
 | **Belvick** | Project Team Member |
-| **Florence** | Project Team Member |
+| **Mwita** | Project Team Member |
 | **Mary** | Project Team Member |
 
 ---
